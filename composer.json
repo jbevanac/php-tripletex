@@ -27,7 +27,6 @@
     "php-http/discovery": "^1.0",
     "php-http/message": "^1.0",
     "php-http/client-implementation": "^1.0",
-    "doctrine/cache": "^1.6",
     "doctrine/collections": "^1.4"
   },
   "require-dev": {
@@ -39,7 +38,8 @@
   },
   "suggest": {
     "php-http/guzzle6-adapter": "Guzzle adapter",
-    "blablacar/redis-client": "Needed if Redis will be used as the storage for tokens"
+    "blablacar/redis-client": "Needed if Redis will be used as the storage for tokens",
+    "doctrine/cache": "Needed if doctrine/cache will be used as the storage for tokens"
   },
   "scripts": {
     "test": [

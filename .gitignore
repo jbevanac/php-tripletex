@@ -2,3 +2,4 @@
 /.idea
 /out
 /tests/output
+composer.lock
